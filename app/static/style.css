@@ -13,17 +13,19 @@ body {
     padding-right:50px;
     text-align: center;
     font-size: 14px;
+    color: white;
 }
 
 .title {
     font-size: 30px;
     margin-top: 1em;
     margin-bottom: 1em;
-    color: #262626;
+    color:white;
+
 }
 
 .content {
-    margin-top: 10em;
+    margin-top: 5em;
 }
 
 .analyze {
@@ -41,22 +43,42 @@ body {
     font-size: 13px;
 }
 
+.font{
+    font-family: 幼圆;
+}
+
+.font2{
+    font-family: 幼圆;
+}
+.classs{
+    margin-top:2em;
+
+}
+
+.font{
+    margin-top: 2em;
+}
+
+.font2{
+    margin-top: 0.5em;
+}
+
 button.choose-file-button {
-  width: 200px;
-  height: 40px;
-  border-radius: 2px;
-  background-color: #ffffff;
-  border: solid 1px #7052CB;
-  font-size: 13px;
-  color: #7052CB;
+    width: 200px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    border: solid 1px #3CC4C4;
+    font-size: 13px;
+    color: #3CC4C4;
 }
 
 button.analyze-button {
     width: 200px;
     height: 40px;
-    border: solid 1px #7052CB;
+    border: solid 1px #3CC4C4;
     border-radius: 2px;
-    background-color: #7052CB;
+    background-color: #3CC4C4;
     font-size: 13px;
     color: #ffffff;
 }
