@@ -9,10 +9,10 @@ from fastai import *
 from fastai.vision import *
 
 # export_file_url = 'https://www.dropbox.com/s/v6cuuvddq73d1e0/export.pkl?raw=1'
-export_file_url = 'https://drive.google.com/uc?export=download&id=1boFVFgfqrlvneEIuuQuc0Y2z0W6ciRMf'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1YZca2P1-k282JJYpHXYO1Di7o-EmAYFv'
 export_file_name = 'export.pkl'
 
-classes = ['plane', 'bike', 'car']
+classes = ['ICH', 'None', 'SDH']
 path = Path(__file__).parent
 
 app = Starlette()
